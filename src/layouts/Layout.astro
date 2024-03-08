@@ -1,26 +1,30 @@
 ---
+import SEO from "../components/SEO.astro"
+
 interface Props {
 	title: string
+	description: string
 	lang: string
 }
 
-const { title, lang }: Props = Astro.props
+const { title, description, lang }: Props = Astro.props
 ---
 
 <!doctype html>
 <html lang={lang}>
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
+		<SEO title={title} description={description} />
 		<title>{title}</title>
 	</head>
 	<body>
-		<header></header>
+		<header>
+			<slot name="header" />
+		</header>
 		<main>
 			<slot />
 		</main>
-		<footer></footer>
+		<footer>
+			<slot name="footer" />
+		</footer>
 	</body>
 </html>

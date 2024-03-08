@@ -6,3 +6,4 @@
 //TODO: Update the packages.json file with the correect name
 //TODO: Update the src/components/typography files to your desired font sizes, styles, and colors.
 //TODO: Update the tailwind.config.mjs file with your color pallete and fonts (and any other config that applies)
+//TODO: Add tests when ready
