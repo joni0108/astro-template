@@ -24,7 +24,7 @@ jobs:
 
     - name: Build and Deploy
       env:
-        REPO_NAME: carlos-repo
+        REPO_NAME: astro-template
         REPO_OWNER: joni0108
         ASTRO_API_KEY: ${{ secrets.ASTRO_API_KEY }}  # Set this as a GitHub secret
         VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}  # Set this as a GitHub secret
