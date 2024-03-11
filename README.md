@@ -1,6 +1,6 @@
 # astro-template
 
-This is an starting template for Astro framework projects,
+This is an starting template for Astro framework projects.
 
 ## Features
 
@@ -12,6 +12,11 @@ It does have everything you will need to get started with any project using the 
 - [x] - React for dynamic components/astro islands
 - [x] - Husky for pre-commit testing and prettier formatting before commiting to branch
 - [x] - Folder structure
+
+## Installation
+1. Create a repository using this template.
+2. Clone your repository.
+3. Read the `..todo`` file to see what steps you must do.
 
 ## Common Errors
 
